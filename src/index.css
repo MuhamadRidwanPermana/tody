@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: Poppins;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none !important;
+  color: black;
+}
+
+.modal{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.modal-content, .form-control{
+  border-radius: 15px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dropdown-menu {
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+  min-height: max-content;
+  min-width: max-content;
+  padding: 0;
+  margin: 0;
+}
+
+.add-icon img{
+  display: flex;
+  margin: 13px;
+  width: 50px;
+  height: 50px;
+}
+
+.select-icon input{
+  width: 60px !important;
+  height: 60px !important;
+  display: inline;
+  margin-right: 16px;
+}
+
+input[type='checkbox'] {
+  height: 23px !important;
+  width: 23px !important;
+  accent-color: #283618;
+}
+
+li{
+  list-style: none;
+  margin: 5px 0;
+  display: flex;
+}
+
+.btn-ckeckbox{
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.list-name{
+  width: 270px;
+  height: auto;
+}
+
+.btn-add{
+  margin: 0 30px 30px auto;
+  font-size: 2rem;
+  width: 65px;
+  height: 65px;
+}
+
+nav{
+  background-color: #F9E16E;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler img{
+  width: 30px;
+  height: 30px;
+}
+
+.circle{
+  position: absolute;
+  z-index: -1;
+  margin: -35rem 0 0 -12rem;
+  width: 50rem;
+  height: auto;
+}
+
+.container{
+  display: flex;
+}
+
+.categories{
+  width: 350px;
+  height: 120px;
+  padding: 10px;
+  box-shadow: 1px 1px 30px rgba(53, 53, 53, 0.3) ;
+}
+
+.select-icon img{
+  width: 70px;
+  height: 70px;
+  margin: 0 12px 30px 12px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.img-sun{
+  background-image: url(/public/sun.svg) ;
+}
+
+@media (max-width: 600px) {
+  .icon-men{
+    width: 70px;
+    height: 70px;
+  }
+  .container{
+    display: inline;
+  }   
+  .categories{
+    margin: 30px auto;
+  }
+  img{
+    width: 60px;
+    height: 60px;
+  }
+}
